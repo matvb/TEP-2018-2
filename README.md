@@ -3,7 +3,7 @@
 Trabalhos da matéria Tópicos Especiais Em computação:
 Professor: Vincius Gusmão
 
-##Trabalho 1: Lifespan
+### Trabalho 1: Lifespan
 Problema: dados o timestamp (exemplo: ano, ou dia, ou minuto, etc.) 
           de nascimento e de morte de cada uma de n pessoas, 
           determinar o timestamp em que havia a maior quantidade de pessoas vivas
@@ -38,10 +38,10 @@ ___80+_______90+________100+_101+________102+_____________119-___121-______131-_
    Complexidade = O(Min{l*n + L, n log n})
 
 
-Trabalho 2: Subconjuntos NK
+### Trabalho 2: Subconjuntos NK
 Encontre todos os subconjuntos de tamanho k do conjunto {1, 2, 3, ..., n}, para n e k dados.
 
-Trabalho 3: Anagrams
+### Trabalho 3: Anagrams
 Imprima todos os anagramas de uma palavra dada (qualquer) que:
 a) começam por vogal; e
 b) não tem três consoantes juntas; e
