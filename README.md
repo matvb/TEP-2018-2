@@ -1,9 +1,11 @@
 # TEP-2018-2
 
-Trabalhos da matéria Tópicos Especiais Em computação:
-Professor: Vincius Gusmão
+## Trabalhos da matéria [Tópicos Especiais Em computação:](http://vigusmao.github.io/cursos/TEP_2018_2.html)
+## Professor: Vincius Gusmão
 
 ### Trabalho 1: Lifespan
+
+```
 Problema: dados o timestamp (exemplo: ano, ou dia, ou minuto, etc.) 
           de nascimento e de morte de cada uma de n pessoas, 
           determinar o timestamp em que havia a maior quantidade de pessoas vivas
@@ -36,7 +38,7 @@ ___80+_______90+________100+_101+________102+_____________119-___121-______131-_
 
    Algoritmo Composto (misturando os dois, escolhendo de acordo com o caso)
    Complexidade = O(Min{l*n + L, n log n})
-
+```
 
 ### Trabalho 2: Subconjuntos NK
 Encontre todos os subconjuntos de tamanho k do conjunto {1, 2, 3, ..., n}, para n e k dados.
@@ -47,3 +49,21 @@ a) começam por vogal; e
 b) não tem três consoantes juntas; e
 c) a primeira ocorrência da letra "P", se houver, tem que ocorrer antes da primeira ocorrência da letra "G", se houver; e
 d) não tem duas letras iguais consecutivas.  
+
+### Trabalho 4: Balsas
+```
+O problema da carga da balsa
+
+__________________     Entrada:
+|    40  |  35   |          L := tamanho de cada um dos corredores (“pistas”) da balsa
+|    60  |  20   |          n = quantidade de carros na fila  
+|        |  30   |          tamanhos := uma lista de n inteiros        
+|        |  12   |    Objetivo: distribuir os carros (esquerda/direita) maximizando
+|        |       |          a quantidade de carros embarcados, sem “furar a fila”               
+|        |       |    
+|        |       |     Ex.:  L = 100,  n = 7
+|        |       |             tamanhos = [40, 35, 20, 60, 30, 12, 18] 
+|        |       |                                  
+|        |       |             Saída:  “EDDEDD (6)”  
+|________|_______|     
+```
